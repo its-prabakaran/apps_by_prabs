@@ -1,13 +1,15 @@
-Borrower Ledger PWA v4
+Borrower Ledger PWA v4.1
 
-NEW
-- Smart Insights: largest balance, best repayment ratio, overdue accounts, due soon, average outstanding, current-month collections, and recommended follow-ups.
-- Interactive Export Wizard: scope, field selection, format selection, preview, and export. Formats: CSV, Excel-compatible XLS, PDF via print/save, and JSON backup.
-- Auto/Mobile/Desktop view switch at the top.
-- Retains borrower account dashboard and interactive analytics.
+FIXED
+- Dedicated Backup & Restore tab restored on desktop and mobile navigation.
+- One-click complete JSON backup.
+- Last-backup timestamp.
+- Restore file validation and preview showing version, borrower count, transaction count, and backup date.
+- Restore confirmation and Delete All maintenance option.
+- Export Wizard remains separate for CSV, Excel, and PDF.
 
 UPGRADE
-1. Back up your current data.
-2. Replace all hosted PWA files with these files.
-3. Refresh twice or reinstall the PWA if the old cached layout appears.
-4. This version uses the same borrower and transaction browser-storage keys as v3.
+1. Create a backup in your current app.
+2. Replace all hosted files with the files from this package.
+3. Refresh twice or reinstall if the old service-worker cache remains.
+4. Existing v3/v4 data is retained on the same website and browser because storage keys are unchanged.

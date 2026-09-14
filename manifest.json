@@ -1,6 +1,6 @@
 {
-  "name": "Borrower Ledger v4",
-  "short_name": "Ledger v4",
+  "name": "Borrower Ledger v4.1",
+  "short_name": "Ledger",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f5f7fb",
