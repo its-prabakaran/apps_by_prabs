@@ -1,10 +1,13 @@
-Borrower Ledger PWA v2
+Borrower Ledger PWA - Modern Dashboard Edition
 
-Changes:
-- Interactive borrower bars, month cards, borrower/month filters, and responsive donut chart.
-- Description field appears in the transaction table and CSV, Excel, PDF, and JSON exports.
-- Excel export creates an Excel-compatible .xls file.
-- PDF export creates a downloadable PDF ledger.
+UPGRADE
+1. Back up data from the existing app.
+2. Replace the hosted files with all files in this package.
+3. Refresh twice. If the old design remains, clear the site's cache or reinstall the PWA.
+4. Existing data from PWA v2 is retained because this edition uses the same browser storage keys.
 
-Deployment:
-Upload all files together to the same HTTPS hosting folder. If replacing an older version, refresh twice or clear the site's cached data so the new service worker assets load. Back up your data before replacing the hosted files.
+BORROWER ACCOUNT
+Selecting a borrower filters the transaction table and updates the borrower-specific dashboard, profile, totals, transaction count, last repayment, next due date, and recent activity timeline.
+
+MOBILE
+The layout stacks cleanly and uses a fixed bottom navigation bar on small screens.
