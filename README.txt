@@ -1,13 +1,13 @@
-Borrower Ledger PWA - Modern Dashboard Edition
+Borrower Ledger PWA v4
+
+NEW
+- Smart Insights: largest balance, best repayment ratio, overdue accounts, due soon, average outstanding, current-month collections, and recommended follow-ups.
+- Interactive Export Wizard: scope, field selection, format selection, preview, and export. Formats: CSV, Excel-compatible XLS, PDF via print/save, and JSON backup.
+- Auto/Mobile/Desktop view switch at the top.
+- Retains borrower account dashboard and interactive analytics.
 
 UPGRADE
-1. Back up data from the existing app.
-2. Replace the hosted files with all files in this package.
-3. Refresh twice. If the old design remains, clear the site's cache or reinstall the PWA.
-4. Existing data from PWA v2 is retained because this edition uses the same browser storage keys.
-
-BORROWER ACCOUNT
-Selecting a borrower filters the transaction table and updates the borrower-specific dashboard, profile, totals, transaction count, last repayment, next due date, and recent activity timeline.
-
-MOBILE
-The layout stacks cleanly and uses a fixed bottom navigation bar on small screens.
+1. Back up your current data.
+2. Replace all hosted PWA files with these files.
+3. Refresh twice or reinstall the PWA if the old cached layout appears.
+4. This version uses the same borrower and transaction browser-storage keys as v3.
